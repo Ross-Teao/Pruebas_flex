@@ -1,0 +1,52 @@
+header{
+    background-color: aqua;
+    height: 10vh;
+    display: flex;
+    display: inline-block;
+    justify-content:left;
+    position: absolute;
+
+}
+
+.menu{
+    background-color: rgb(8, 192, 57);
+    height: 10vh;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+
+}
+
+/* ------------------------------------------------------------------ */
+main{
+    display: flex;
+    background-color: black;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+div{
+    background-color: rgb(225, 255, 28);
+    display: inline-block ;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+/* ------------------------------------------------------------------ */
+.footer{
+    background-color: aqua;
+    height: 5vh;
+    display: flex;
+    align-items: flex-end;
+    
+}
